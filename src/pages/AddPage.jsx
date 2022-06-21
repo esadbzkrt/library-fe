@@ -1,15 +1,20 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate   } from "react-router-dom";
 import { BiArrowBack } from "react-icons/bi";
 
 function AddPage() {
+
+    let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+        navigate(-1) 
+      }
 
   return (
     <div className="flex w-full justify-center">
       <div>
         <div>
           <div className="flex">
-            <button onClick={()=> window.location.href='/'}>
+            <button onClick={routeChange}>
               <div className="mt-2 border-2 border-gray-300 hover:border-black p-1 rounded-lg">
                 <BiArrowBack size={24} />
               </div>
