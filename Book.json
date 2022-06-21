@@ -1,0 +1,32 @@
+[
+  {
+    "bookName": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "category": "Fantasy",
+    "publisher": "Houghton Mifflin"
+  },
+  {
+    "bookName": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "category": "Fantasy",
+    "publisher": "Houghton Mifflin"
+  },
+  {
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "category": "Fiction",
+    "publisher": "Houghton Mifflin"
+  },
+  {
+    "bookName": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "category": "Fiction",
+    "publisher": "Houghton Mifflin"
+  },
+  {
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "category": "Fiction",
+    "publisher": "Houghton Mifflin"
+  }
+]

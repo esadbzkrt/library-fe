@@ -1,9 +1,16 @@
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AddPage from "./pages/AddPage";
+import SearchPage from "./pages/SearchPage";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Esad
-    </h1>
+    <Router>
+      <Routes>
+        <Route path="/" element={<SearchPage />} />
+        <Route path="/add" element={<AddPage />} />
+      </Routes>
+    </Router>
   );
 }
 
